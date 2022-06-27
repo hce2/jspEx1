@@ -1,10 +1,11 @@
 package user;
 
 public class User {
-	private String userID; 
-	private String userPassword; 
+	private String userID;
+	private String userPassword;
 	private String userName;
 	private String userGender;
+	
 	public String getUserID() {
 		return userID;
 	}
@@ -29,11 +30,16 @@ public class User {
 	public void setUserGender(String userGender) {
 		this.userGender = userGender;
 	}
+	
+	
 	@Override
 	public String toString() {
 		return "User [userID=" + userID + ", userPassword=" + userPassword + ", userName=" + userName + ", userGender="
 				+ userGender + "]";
-	} 
+	}
+	
+	
+	
 	
 	
 	

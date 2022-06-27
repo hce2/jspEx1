@@ -1,25 +1,30 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<%-- 	<div>hello world</div>
-	<div>¾È³ç    ¼¼»ó</div>
+<%-- 	<div>hello 
+	
+	
+	world</div>
+	<div>ì•ˆë…•           ì„¸ìƒ</div>
 	<%= new java.util.Date() %>
 	<br>
 	<%
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<10; i++){
 			out.println(i);
+	%>
+	<br>
+	<%
 		}
+	
 	%> --%>
 	
-	
-	<a href="login.jsp">·Î±×ÀÎ</a>
-	
-	
+	<a href="login_booot.jsp">ë¡œê·¸ì¸</a>
+	<a href="join.jsp">íšŒì›ê°€ì…</a>
 </body>
 </html>
